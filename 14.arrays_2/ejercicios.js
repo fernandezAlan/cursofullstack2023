@@ -1,7 +1,7 @@
 /*
 1- crear una funcion llamada reverseString que tome como parametro un string y devuelva el string alreves
 por ejemplo la funcion puede recibir el siguiente string "hola" y deberia devolver el string "aloh"
-tomen en cuenta que se puede iterar un string de la misma manera que iteramos un for para acceder a cada caracter
+tomen en cuenta que se puede iterar un string de la misma manera que iteramos un arreglo, usen un for para acceder a cada caracter
 pueden leer el siguiente articulo para saber como iterar un string y trabjar con cada uno de sus caracteres:
 https://buzzcoder.gitbooks.io/codecraft-javascript/content/string/loop-through-a-string.html
 
