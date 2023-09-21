@@ -1,0 +1,30 @@
+body{
+    background-color: #cfcdcd;
+}
+#container{
+    width:400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#container > h3 {
+    text-align: center;
+}
+
+#container > div {
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.text-disabled {
+    color:gray
+}
