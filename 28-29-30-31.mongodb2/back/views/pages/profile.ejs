@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PROFILE</h1>
+    <label for="add_task">agregar tarea</label><br>
+    <input type="text" id="add_task">
+    <button id="btn_task">agregar</button>
+    <h2>tareas pendientes</h2>
+    <div id="tasks_container">
+        <% for(var i = 0; i < tasks.length; i++){   %>
+        <span><%= tasks[i].text %></span> <button onclick="deleteTask('<%= tasks[i]._id %>')">borrar</button> <br>
+        <% }  %>
+    </div>
+    <button id="logout">salir</button>
+    <script src="../../profile.js"></script>
+</body>
+</html>
